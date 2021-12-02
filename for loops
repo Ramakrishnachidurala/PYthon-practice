@@ -1,0 +1,29 @@
+a=[1,2,3]
+b=[3,4,5]
+l=[]
+for x,y in zip(a,b): #Zip in for loop
+    c=x+y
+    l.append(c)
+print(l)
+#o/p: [4,5,8]
+
+my_list = [21, 44, 35, 11]
+for index, val in enumerate(my_list):   #enumerte(listname) in for loop
+    print(index, val)
+"""o/p: 1 44
+        2 35
+        3 11"""
+     
+cd={"key":2,"vval":22,3:9}
+print("values of dic")
+for i in cd:
+
+    print(cd[i])
+print("keys")
+print(cd.keys())  
+print("values")
+print(cd.values())
+print("keys and values")
+for key,val in cd.items():    #dicname.items() in for loop
+    print(key,val)
+    
